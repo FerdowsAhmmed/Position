@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(25, 13, 92);
+    color: aliceblue;
+    /* padding: 20px 0; */
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    
+}
+.menus{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 15px;
+}
+.menus li{
+  list-style: none;
+  position: relative;
+}
+.menus li:hover {
+  list-style: none;
+}
+.submenu1 {
+    display: none;
+    padding-top: 20px;
+}
+.menus li:hover .submenu1 {
+    display: block;
+    position: absolute;    
+}
+
+.submenu1 li a{
+    width: 135%;
+    background-color: rgb(25, 13, 92);
+}
+.submenu2 li {
+    list-style: none;
+  position: relative;
+}
+.submenu2 {
+    display: none;
+    /* padding-top: 20px; */
+}
+ .submenu1 li:hover .submenu2 {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 145%;    
+}
+
+
+.submenu2 li a{
+    width: 185%;
+    background-color: rgb(25, 13, 92);
+} 
+.menus li a{
+ text-decoration: none;
+  color: aliceblue; 
+  padding: 5px;
+  display: block;
+}
+.menus li a:hover {
+ /* text-decoration: none; */
+  color: rgb(1, 10, 17); 
+  background-color: rgb(226, 93, 26);
+}
+
+.submenu3{
+    display: none;
+}
+.submenu2 li{
+    position: relative;
+}
+.submenu2 li:hover .submenu3 {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 200%;
+}
+
+.first-row {
+display: flex;
+gap: 20px;
+padding:0 20px;
+margin-top: 20px;
+}
+.first-row p{
+text-align: justify;
+font-size: 12px;
+}
+.first-row .post1{
+width: 33%;
+}
+.first-row .post2{
+width: 33%;
+}
+.first-row .post3{
+width: 33%;
+}
+.second-row {
+display: flex;
+gap: 20px;
+padding:0 20px;
+margin-top: 20px;
+}
+.second-row p{
+text-align: justify;
+font-size: 12px;
+}
+.second-row .post1{
+    width: 50%;
+}
+.second-row .post2{
+    width: 50%;
+}
+.my-blog{
+    position: absolute;
+    top: 70px;
+}
+.my-blog h1{
+    position: sticky;
+    top: 70px;
+    background-color: rgb(40, 40, 48);
+    color: antiquewhite;
+    width: 25%;
+    padding: 5px;
+   left: 40%;
+   border-radius: 10px;
+   font-size: 20px;
+}
