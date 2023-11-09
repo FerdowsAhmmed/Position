@@ -12,6 +12,7 @@
     position: fixed;
     width: 100%;
     z-index: 1;
+    font-size: 20px;
     
 }
 .menus{
@@ -92,7 +93,7 @@ margin-top: 20px;
 }
 .first-row p{
 text-align: justify;
-font-size: 12px;
+font-size: 15px;
 }
 .first-row .post1{
 width: 33%;
@@ -111,7 +112,7 @@ margin-top: 20px;
 }
 .second-row p{
 text-align: justify;
-font-size: 12px;
+font-size: 15px;
 }
 .second-row .post1{
     width: 50%;
